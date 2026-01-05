@@ -20,6 +20,8 @@ function App() {
     lng: null,
     range: 3, 
   });
+
+  // Selected Shop State
   const [selectedShopId, setSelectedShopId] = useState<string | null>(null);
   
   /** 検索実行済みフラグ */
