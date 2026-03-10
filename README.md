@@ -55,21 +55,21 @@ Tailwind CSS: 3.4.0
 ### 開発環境構築手順(ウェブアプリ)  
 1.リポジトリのクローン  
 ```
-git clone https://github.com/HYO-KM/atarino-gourmet
+git clone https://github.com/HYO-KM/atarino-gourmet  
 
 2.依存関係のインストール
 ```
-npm install
+npm install  
 
 3.環境変数の設定
 ・プロジェクトルートに .env ファイルを作成する。
 ・ホットペッパーグルメサーチAPIのAPIキーを以下の形式で記述する。
 ```
-VITE_HOTPEPPER_API_KEY=あなたのAPIキー
+VITE_HOTPEPPER_API_KEY=あなたのAPIキー  
 
 4.ローカルサーバーの起動
 ```
-npm run dev
+npm run dev  
 
 5.動作確認
 表示されたURLにアクセスする
@@ -111,6 +111,7 @@ npm run dev
 一方で、実際に制作中のアプリを自分で操作してみると、「絞り込み条件はこれで足りるか？」「詳細情報は十分か？」といった、設計段階では見えなかった課題や違和感にも気づくことができました。
 この経験から、「アプリは作って終わりではなく、実際に使い込んで改善を繰り返すプロセスも重要」と深く学びました。
 今後はこの経験を活かし、ユーザーレビューやフィードバックを積極的に取り入れながら、より使いやすいアプリを制作していくための知識と技術を身につけていきたいです。
+
 
 
 
